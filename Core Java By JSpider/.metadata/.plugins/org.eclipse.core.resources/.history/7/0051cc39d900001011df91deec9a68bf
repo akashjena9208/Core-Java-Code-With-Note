@@ -1,0 +1,48 @@
+package SortingComparator;
+
+import java.util.Iterator;
+import java.util.ListIterator;
+import java.util.TreeSet;
+
+public class MobileMain {
+	public static void main(String[] args) {
+		Mobile mb1= new Mobile(5, "Xaomi");
+		Mobile mb2= new Mobile(1, "Redmi");
+		Mobile mb3= new Mobile(7, "Realme");
+		Mobile mb4= new Mobile(6, "BlackBerry");
+		Mobile mb5= new Mobile(3, "IQ");
+		Mobile mb6= new Mobile(9, "JIO");
+		Mobile mb7= new Mobile(2, "Apple");
+
+		
+		
+		System.out.println(".............. Based On Price Sorting  .....................");
+		MobileComaratorByprice mp=new MobileComaratorByprice();	
+		TreeSet<Mobile> t= new TreeSet<>(mp);
+
+		t.add(mb2);
+		t.add(mb3);
+		t.add(mb5);
+		t.add(mb6);
+		t.add(mb7);
+		t.add(mb1);
+		t.add(mb4);
+		
+		System.out.println(t);
+		
+		Iterator<Mobile> mt= t.iterator();
+		while(mt.hasNext())
+		{
+			System.out.println(mt.next());
+		}
+		
+		
+		System.out.println(".................Based On Model Sorting...............");
+		MobileComaratorByModel mm=new MobileComaratorByModel();
+		TreeSet<Mobile> tm=new TreeSet<Mobile>(mm);
+		System.out.println(tm);
+		
+		
+		
+	}
+}

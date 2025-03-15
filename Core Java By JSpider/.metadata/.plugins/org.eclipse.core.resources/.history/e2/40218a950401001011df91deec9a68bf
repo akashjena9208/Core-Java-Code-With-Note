@@ -1,0 +1,31 @@
+class Product
+{
+	int quanty,price;
+	String type;
+	public Product(int quanty, int price, String type) {
+		
+		this.quanty = quanty;
+		this.price = price;
+		this.type = type;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Product [quanty=" + quanty + ", price=" + price + ", type=" + type + "]";
+	}
+	
+	
+	
+	
+	
+}
+public class MainProduct {
+	
+	public static void main(String[] args) {
+		Product product=new Product(10, 1000, "Ice Cream");
+		System.out.println(product);
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.car&apos; to &apos;Car&apos;&#x0D;&#x0A;- Original project: &apos;Acess Specifier&apos;&#x0D;&#x0A;- Original element: &apos;com.car&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Car&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;car&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com{car.java[car" matchStrategy="1" name="Car" qualified="false" references="true" similarDeclarations="false" stamp="1731646203637" textual="false" version="1.0"/>
+</session>
