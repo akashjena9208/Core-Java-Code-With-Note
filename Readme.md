@@ -64,5 +64,5 @@ Java is based on four main OOP principles:
 - [Java Programming - GeeksforGeeks](https://www.geeksforgeeks.org/java/)
 - [Java Programming - W3Schools](https://www.w3schools.com/java/)
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------------
 Happy Coding! 🚀
