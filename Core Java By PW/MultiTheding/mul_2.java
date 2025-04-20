@@ -3,7 +3,7 @@ package MultiTheding;
  * Main Thread:-
  * -Inside the java application Activity task perform to need to Thread
  * - Thread Means line of execution
- * -you creat a java program Automatically by defult behind the scean craet Thread that is main thread
+ * -you creat a java program Automatically by defult behind the scean craete Thread that is main thread
  * 
  * 
  * multipule thread
