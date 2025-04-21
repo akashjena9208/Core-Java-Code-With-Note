@@ -40,7 +40,7 @@ public class io_9
         Cricketer c=new Cricketer("Sachin", 44, 30000);
         c.disp();
        
-
+        //  Serilzaton
         // FileOutputStream fos=new FileOutputStream("pww.txt");
         // BufferedOutputStream bos=new BufferedOutputStream(fos);
         // ObjectOutputStream oos=new ObjectOutputStream(bos);
@@ -48,7 +48,9 @@ public class io_9
         // oos.writeObject(c);
         // oos.flush();
         
-        // oos.close();     
+        // oos.close();  
+
+         //DeSerilzation
 
         FileInputStream fis=new FileInputStream("pww.txt");
         BufferedInputStream bis=new BufferedInputStream(fis);
