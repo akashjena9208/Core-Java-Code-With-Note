@@ -36,6 +36,8 @@ public class Test {
 		List<Integer> skipthe=limitUsed.stream().skip(1).collect(Collectors.toList());
 		System.out.println(skipthe);
 		
+		 
+		
 	}
 
 }
