@@ -1,6 +1,7 @@
 package java9;
-
+@FunctionalInterface
 interface Vehicle {
+	void justforfun();
     default void start() {
         System.out.println(getName() + " is starting...");
     }

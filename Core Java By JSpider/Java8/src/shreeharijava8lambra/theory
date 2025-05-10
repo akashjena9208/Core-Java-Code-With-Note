@@ -1,0 +1,58 @@
+Lambara Expression Contain any Number of parametar
+() -> System.out.println("Hello");
+(int a) -> System.out.println(a);
+(int a,int b) -> System.out.println(a+b);
+
+
+
+if multipule parametre are presant  then this parametre  should be sepratere with ,
+(int a,int b) -> System.out.printLn(a+b);
+(int a,int b,int c) -> System.out.printLn(a+b+c);
+(a,b,c,d,e) -> System.out.printLn(a+b+c+d+e);
+
+
+if only one parametar is avilable then partinsh is optional
+(int a) -> System.out.println(a);  ------->    a -> System.out.println(a);
+
+if compiler guasser the data type  of the parametra based on context then data type can be remove
+(int a,int b) -> System.out.printLn(a+b); ----> (a ,b) -> System.out.printLn(a+b);
+
+Similar to Method body Lambra expresiion body can containn any number of sentence  if multipule statement presant then include  with {}
+means more then one 
+() ->
+{
+----------------------
+---------------------
+---------------
+----
+--
+-
+}
+
+if lambra exprssion  having single statment return some value then we can remove return keyword
+() -> ----
+
+
+
+Type Inferance  is a Features that allow java compiler to Automatically Determine the Type Of Variable and Exprsssion based onn context
+@FunctionalInterface
+interface TypeInterface {
+------>void add(int a,int b);
+|	
+| public class TypeInterfaceMain  {
+|	public static void main(String[] args) {
+|			----------------
+|			|				|	
+---------TypeInterface res=(a,b)-> System.out.println();
+		res.add(10, 20);
+		
+	}
+}
+
+}
+
+
+
+//Genric is place holder of data type 
+ 
+

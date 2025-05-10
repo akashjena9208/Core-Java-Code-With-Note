@@ -1,6 +1,12 @@
 package java9;
 
 class Car implements Vehicle {
+
+	@Override
+	public void justforfun() {
+		// TODO Auto-generated method stub
+		
+	}
     // No need to implement start() or stop(), they already exist
 }
 

@@ -6,6 +6,10 @@ import java.util.function.Consumer;
 
 public class Main {
 	public static void main(String[] args) {
+		//Whatever you pass → it returns as-is.
+		//Not return any thing only used or print 
+		
+		
 		
 		Consumer<String> consumer=s-> System.out.println(s);
 		consumer.accept("Akash");
@@ -35,6 +39,40 @@ public class Main {
 		
 		
 		liConsumer2.andThen(liConsumer2).accept(Arrays.asList(1,2,3,4));;
+		
+		System.out.println("==================");
+		List<String> names = List.of("Akash", "Rohit", "Sneha");
+
+		names.forEach(name -> System.out.println(name));
+		
+		
+		System.out.println("==================");
+		
+		//Consumer
+		Consumer<Integer> print=x->System.out.println(x);
+		print.accept(5);
+		
+		List<Integer> list=Arrays.asList(1,2,3);
+		
+		Consumer<List<Integer>> prConsumer=x->
+		{
+			for(int i:x)
+			{
+				System.out.println(i);
+			}
+		};
+		prConsumer.accept(list);
+		
+		
+		
+
+		
+
+		
+		
+		
 	}
+	
+
 
 }
