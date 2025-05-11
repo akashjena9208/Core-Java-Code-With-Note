@@ -1,0 +1,41 @@
+...............Creation Methods.................................
+Stream.of(T... values)             // Creates a stream from given values
+Arrays.stream(array)               // From array
+List.stream()                      // From a list or other Collection
+Stream.empty()                     // Returns an empty stream
+Stream.generate(Supplier)         // Infinite stream
+Stream.iterate(seed, UnaryOperator) // Infinite stream with function
+
+
+Intermediate Methods:-These return a new stream and are used to transform or filter the data:
+
+| Method                                 | Description                            |
+| -------------------------------------- | -------------------------------------- |
+| `filter(Predicate)`                    | Filters elements based on condition    |
+| `map(Function)`                        | Transforms each element                |
+| `mapToInt`, `mapToLong`, `mapToDouble` | Specialized mapping                    |
+| `flatMap(Function)`                    | Flattens nested streams                |
+| `distinct()`                           | Removes duplicates                     |
+| `sorted()`                             | Sorts the stream (natural order)       |
+| `sorted(Comparator)`                   | Custom sorting                         |
+| `limit(n)`                             | Limits the number of elements          |
+| `skip(n)`                              | Skips the first n elements             |
+| `peek(Consumer)`                       | For debugging (like printing elements) |
+
+| Method                   | Description                                                |
+| ------------------------ | ---------------------------------------------------------- |
+| `forEach(Consumer)`      | Performs an action for each element                        |
+| `toArray()`              | Converts stream to array                                   |
+| `collect(Collector)`     | Collects elements into a collection (e.g., List, Set, Map) |
+| `reduce(BinaryOperator)` | Combines elements using a function                         |
+| `count()`                | Returns the number of elements                             |
+| `anyMatch(Predicate)`    | Returns true if any element matches condition              |
+| `allMatch(Predicate)`    | True if all match                                          |
+| `noneMatch(Predicate)`   | True if none match                                         |
+| `findFirst()`            | Returns the first element (Optional)                       |
+| `findAny()`              | Returns any element (Optional)                             |
+| `min(Comparator)`        | Minimum element                                            |
+| `max(Comparator)`        | Maximum element                                            |
+
+
+
