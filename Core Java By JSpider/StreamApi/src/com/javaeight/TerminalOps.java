@@ -44,8 +44,10 @@ public class TerminalOps {
         Object[] array = Stream.of(1, 2, 3).toArray();
 
         // 8. min / max
-        System.out.println("max: " + Stream.of(2, 44, 69).max((o1, o2) -> o2 - o1));
-        System.out.println("min: " + Stream.of(2, 44, 69).min(Comparator.naturalOrder()));
+        System.out.println("min: " + Stream.of(2, 44, 69).max(Comparator.naturalOrder())); //69 asinding order maximum
+        System.out.println("max: " + Stream.of(2, 44, 69).max((o1, o2) -> o1 - o2)); // 69 assending order 
+        System.out.println("max: " + Stream.of(2, 44, 69).max((o1, o2) -> o2 - o1)); //2 desding order minimum
+        System.out.println("min: " + Stream.of(2, 44, 69).min(Comparator.naturalOrder())); //2 asinding order minimum
 
         // 9. forEachOrdered
         List<Integer> numbers0 = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);

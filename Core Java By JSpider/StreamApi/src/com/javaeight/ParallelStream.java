@@ -26,6 +26,7 @@ public class ParallelStream {
 		endTime = System.currentTimeMillis();
 		System.out.println("Time taken with parallel stream: " + (endTime - startTime) + " ms");
 
+		//Which Time Used
 		// Parallel streams are most effective for CPU-intensive or large datasets where
 		// tasks are independent
 		// They may add overhead for simple tasks or small datasets
