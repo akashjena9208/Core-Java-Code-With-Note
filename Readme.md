@@ -58,6 +58,44 @@ Java is based on four main OOP principles:
 - **Build Tools**: Maven, Gradle
 - **Version Control**: Git and GitHub
 
+# 11. ☕ Java 8 Features
+
+Java 8 introduced many powerful features that revolutionized Java programming. Below is a list of all major concepts introduced in Java 8.
+
+## 🔹 Core Concepts
+
+1. **Lambda Expressions**
+2. **Functional Interfaces**
+3. **Default Methods in Interfaces**
+4. **Static Methods in Interfaces**
+5. **Method References**
+6. **Stream API**
+7. **Optional Class**
+8. **Date and Time API (`java.time` package)**
+9. **Collectors (used with Streams)**
+10. **Built-in Functional Interfaces**
+    - Predicate
+    - Function
+    - Consumer
+    - Supplier
+11. **forEach() Method**
+12. **Parallel Streams**
+13. **Nashorn JavaScript Engine**
+14. **Base64 Encoding and Decoding API**
+15. **CompletableFuture & Concurrency Enhancements**
+16. **Type Annotations**
+17. **Repeating Annotations**
+18. **New File I/O Enhancements (NIO.2)**
+19. **Collections API Improvements**
+    - `Map.forEach()`
+    - `Map.getOrDefault()`
+    - `Map.putIfAbsent()`
+20. **@FunctionalInterface Annotation**
+
+
+
+
+
 ## Resources to Learn Java
 - [Official Java Documentation](https://docs.oracle.com/en/java/)
 - [Java Tutorials by Oracle](https://docs.oracle.com/javase/tutorial/)
